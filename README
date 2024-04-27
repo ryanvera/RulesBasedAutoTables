@@ -1,0 +1,5 @@
+This implementation of the rules based AutoTables algorithm only includes 3 sample operations: Pivot, Tranpose, Wide-to-Long
+
+The algorithm relies on the sample dataset dimension. A 1D table is detected as the pivot operation, while a 2D table is detected as either the Tranpose or Wide-to-Long opertion. To differenate between Tranpose and Wide-to-Long, the algorithm looks at the rows to determine of the datatypes of those values are similar. If they are considered the same datatype, then is detected as a Transpose opertaion, else it is a Wide-to-Long operation.
+
+There are 3 algorithms to generate the data. Upon each execution of these generation algorithms, new data will be generate for testing.
